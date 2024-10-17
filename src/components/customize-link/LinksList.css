@@ -1,0 +1,13 @@
+.links-list {
+    min-height: 397px;
+    max-height: 660px;
+    height: 490px;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 7rem;
+}
+
+.links-list .draggable-item {
+    cursor: move;
+    touch-action: none;
+}
