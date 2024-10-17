@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.profileCard {
+    padding: 1.5rem;
+    height: 343.2px;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    animation: pulse 1.5s infinite;
+}
+
+@media (min-width: 1024px) {
+    .profileCard {
+        height: 273px;
+        flex-direction: row;
+    }
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skeletonLine {
+    height: 1rem;
+    background-color: #e0c3ff;
+    border-radius: 9999px;
+}
+
+.profileImageContainer {
+    margin: 1rem 0;
+}
+
+.skeletonImage {
+    width: 193px;
+    height: 193px;
+    background-color: #e0c3ff;
+    border-radius: 0.5rem;
+}
+
+.descriptionContainer {
+    padding: 1.5rem;
+    height: 250px;
+}
+
+.descriptionCard {
+    height: 343.2px;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation: pulse 1.5s infinite;
+}
+
+@media (min-width: 1024px) {
+    .descriptionCard {
+        height: 184px;
+    }
+}
+
+.hiddenContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hiddenLine {
+    height: 1rem;
+    background-color: #e0c3ff;
+    border-radius: 9999px;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

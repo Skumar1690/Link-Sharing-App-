@@ -1,0 +1,20 @@
+.tabs-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 1.75rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    color: #6B7280;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.tabs-title:hover {
+    color: #633CFF;
+}
+
+.tabs-title.active {
+    color: #633CFF;
+    background-color: #E9D8FD;
+}

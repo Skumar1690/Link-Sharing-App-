@@ -1,0 +1,84 @@
+/* Input.css */
+
+.input-container {
+    padding: 0.25rem 0;
+}
+
+.input-label {
+    font-size: 0.75rem;
+    /* Text-xs */
+    color: #4b5563;
+    /* Neutral dark grey */
+}
+
+.input-label.profile {
+    width: 41.666667%;
+    /* md:w-5/12 */
+    font-size: 1rem;
+    /* md:text-base */
+    color: #9ca3af;
+    /* Neutral grey */
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.input-field {
+    width: 100%;
+    color: #4b5563;
+    /* Neutral dark grey */
+    border: 1px solid #d1d5db;
+    /* Neutral borders */
+    background-color: white;
+    /* bg-white */
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    /* rounded-lg */
+    padding: 0.75rem;
+    /* py-3 */
+}
+
+.input-field.has-icon {
+    padding-left: 2.5rem;
+    /* pl-10 */
+}
+
+.input-field.error {
+    border-color: #dc2626;
+    /* Error color */
+    color: #dc2626;
+    /* Error color */
+}
+
+.input-field.focus {
+    border-color: #633cff;
+    /* Primary index */
+    box-shadow: 0 4px 10px rgba(99, 60, 255, 0.5);
+    /* Shadow for focus */
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    /* left-3 */
+    transform: translateY(-50%);
+}
+
+.error-message {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 0.75rem;
+    /* text-xs */
+    color: #dc2626;
+    /* Error color */
+    padding: 0.5rem 0.75rem;
+    /* p-2 lg:px-4 */
+    background-color: white;
+    /* bg-white */
+}
